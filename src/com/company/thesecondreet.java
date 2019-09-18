@@ -4,7 +4,7 @@ public class thesecondreet {
     public static void main(String[] args)
     {
         int a=method1();
-        double b=method2()
+        double b=method2();
         System.out.println(a);
     }
     public static int method1(){
