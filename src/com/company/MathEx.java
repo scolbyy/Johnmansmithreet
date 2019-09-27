@@ -16,10 +16,15 @@ public class MathEx {
 
     }
     private static void timeLeft(int curHour, int curMin, int depHour, int depMin) {
-        int d = depHour - curHour - ;
-        int e = depMin - curMin;
-        System.out.print(d + "hours and ");
-        System.out.println(e + "minutes");
+        int d = depHour * 60;
+        d = d + depMin;
+        int e = curHour * 60;
+        e = e + curMin;
+        int f = d - e;
+        int g = f/60;
+        int h = f%60;
+        System.out.print(g + " hours and ");
+        System.out.println(h + " minutes");
     }
     }
 
